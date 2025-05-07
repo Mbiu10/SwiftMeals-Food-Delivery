@@ -1,0 +1,43 @@
+/* frontend/src/components/Admin/Pages/Orders/Orders.css */
+.admin-layout {
+  display: flex;
+  flex-direction: row;
+  min-height: 100vh;
+}
+
+.main-content {
+  flex: 1;
+  margin-left: 200px; 
+  padding: 20px;
+}
+
+.orders {
+  width: 800px;
+  margin: 20px;
+}
+
+.order-list {
+  margin-top: 20px;
+}
+
+.order-item {
+  padding: 12px 15px;
+  border: 1px solid #cacaca;
+  margin-bottom: 10px;
+}
+
+.order-item p {
+  margin: 5px 0;
+}
+
+.error {
+  color: red;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}

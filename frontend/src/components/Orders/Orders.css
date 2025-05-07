@@ -1,0 +1,32 @@
+.orders {
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.orders h2 {
+  color: #49557e;
+  margin-bottom: 20px;
+}
+
+.orders-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.order-item {
+  background-color: #fff4f2;
+  padding: 15px;
+  border-radius: 8px;
+  border: 1px solid brown;
+}
+
+.order-item p {
+  margin: 5px 0;
+  color: #49557e;
+}
+
+.order-item p:first-child {
+  font-weight: bold;
+}

@@ -1,0 +1,48 @@
+/* frontend/src/components/Admin/Pages/List/List.css */
+.admin-layout {
+  display: flex;
+  flex-direction: row;
+  min-height: 100vh;
+}
+
+.main-content {
+  flex: 1;
+  margin-left: 200px; 
+  padding: 20px;
+}
+
+.list {
+  width: 800px;
+  margin: 20px;
+}
+
+.list-table {
+  margin-top: 20px;
+}
+
+.list-table-format {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr 1fr 0.5fr;
+  gap: 10px;
+  padding: 12px 15px;
+  border: 1px solid #cacaca;
+  align-items: center;
+}
+
+.list-table-format.title {
+  background: #f9f9f9;
+}
+
+.list-table-format img {
+  width: 50px;
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}

@@ -1,0 +1,57 @@
+/* frontend/src/components/Admin/Pages/Add/Add.css */
+.admin-layout {
+  display: flex;
+  flex-direction: row;
+  min-height: 100vh;
+}
+
+.main-content {
+  flex: 1;
+  margin-left: 200px; 
+  padding: 20px;
+}
+
+.add {
+  width: 800px;
+  margin: 20px;
+}
+
+.add-img-upload img {
+  width: 120px;
+}
+
+.add-product-name,
+.add-product-description {
+  width: 100%;
+}
+
+.add-product-description textarea {
+  resize: none;
+  width: 100%;
+}
+
+.add-category-price {
+  display: flex;
+  gap: 30px;
+}
+
+.add-category select,
+.add-price input {
+  width: 120px;
+  padding: 5px;
+}
+
+.add-btn {
+  width: 120px;
+  background: black;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
